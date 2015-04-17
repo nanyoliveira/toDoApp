@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  ToDoApp
 //
-//  Created by Matt Ariane Clarke on 16/04/2015.
+//  Created by Matt Ariane Clarke on 17/04/2015.
 //  Copyright (c) 2015 Ariane Oliveira. All rights reserved.
 //
 
@@ -16,6 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        UINavigationBar.appearance().barTintColor = UIColor.purpleColor()
+        UINavigationBar.appearance().tintColor = UIColor.whiteColor()
         return true
     }
 
